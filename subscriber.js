@@ -9,7 +9,7 @@ client.on("connect", function() {
   console.log("subscriber.connected.");
 });
 
-client.subscribe("topic0", function(err, granted) {
+client.subscribe("itoyuNineAxis", function(err, granted) {
   console.log("subscriber.subscribed.");
 });
 
